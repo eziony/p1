@@ -23,29 +23,37 @@
         font-size: 12px;
         color: #424344;
       }
+    #grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+      #grid #log{
+        padding-left:25px;
+      }
+      #grid #bookmark{
+        padding-left:25px;
+      }
     </style>
   </head>
 
   <body>
+    <div id="grid">
+      <div id="log">
+        <h3>Log</h3>
+        <p><strong>2019-05-10</strong>: Web1 Study Start</p>
+        <p><strong>2019-05-19</strong>: Atom & Github Setting Complete</p>
+        <p><strong>2019-05-20</strong>: Web1 Complete</p>
+        <p><strong>2019-05-21</strong>: Web2 CSS Start </p>
+      </div>
 
-  <h3>Log</h3>
-  <p><strong>2019-05-10</strong>: Study Start</p>
-  <p><strong>2019-05-19</strong>: Atom & Github Setting Complete</p>
-  <p><strong>2019-05-20</strong>: Web1 Complete</p>
-  <p><strong>2019-05-21</strong>: Web2 CSS Start </p>
-  <!--
-  <ol>
-    <li>HTML 코딩 실습</li>
-    <li><a href="./css/index.html">CSS 실습</a></li>
-    <li><a href="./js/index.html">Java Script 실습</a></li>
-  </ol>
-  -->
-</br>
-  <h3>Book Mark</h3>
-  <p><a href="https://codepen.io" target="_blank">CODE PEN</a></p>
-  <p><a href="https://www.advancedwebranking.com/html" target="_blank">Advanced Web Ranking</a></p>
-  <p><a href="https://unsplash.com" target="_blank">unsplash</a></p>
-  <p><a href="https://disqus.com/" target="_blank">disqus</a></p>
-  <p><a href="https://www.livere.com/" target="_blank">LiveRe</a></p>
+      <div id="bookmark">
+        <h3>Book Mark</h3>
+        <p><a href="https://codepen.io" target="_blank">CODE PEN</a></p>
+        <p><a href="https://www.advancedwebranking.com/html" target="_blank">Advanced Web Ranking</a></p>
+        <p><a href="https://unsplash.com" target="_blank">unsplash</a></p>
+        <p><a href="https://disqus.com/" target="_blank">disqus</a></p>
+        <p><a href="https://www.livere.com/" target="_blank">LiveRe</a></p>
+      </div>
+    </div>
   </body>
 </html>
