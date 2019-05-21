@@ -14,7 +14,9 @@ p {
 
 a {
   color: #0a3968;
-  font-weight: bold;
+  font: 11px bold;
+  text-decoration: none;
+
 }
 
 #grid {
