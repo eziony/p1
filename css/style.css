@@ -37,3 +37,45 @@ grid-template-columns: 1fr 1fr;
     display: block;
   }
 }
+
+/* fullscreen css */
+
+.grid:-webkit-full-screen {
+  background-color: #e4708a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid:-webkit-full-screen p {
+  visibility: visible;
+}
+
+.grid:-moz-full-screen {
+  background-color: #e4708a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid:-moz-full-screen p {
+  visibility: visible;
+}
+
+.grid:-ms-fullscreen {
+  background-color: #e4708a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid:-ms-fullscreen p {
+  visibility: visible;
+}
+
+.grid:fullscreen {
+  background-color: #e4708a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid:fullscreen p {
+  visibility: visible;
+}
